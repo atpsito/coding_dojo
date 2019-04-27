@@ -1,0 +1,15 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-3"></div>
+    <div class="col-sm-6 cajaId">
+      <h1>Unirse a una sala</h1>
+      <form>
+        <mat-form-field>
+          <input matInput placeholder="Ingrese el código de sala" [(ngModel)]="idSala" name="idSala">
+        </mat-form-field>
+        <button type="submit" (click)="irSalaChat()" class="btn btn-block btn-info">Ir a la sala</button>
+      </form>
+    </div>
+    <div class="col-sm-3"></div>
+  </div>
+</div>
